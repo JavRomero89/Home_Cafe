@@ -1,0 +1,40 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+#fontLogo {
+    width: 186px;
+    height: 36px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.5px;
+    line-height: 35px;
+    color: white;
+}
+
+#divHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    gap: 341px;
+    /* width: 1280px; */
+    height: 64px;
+    background: #2B2A2B;
+    box-shadow: 0px 4px 4px black;
+
+}
+
+#divLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7.30px;
+    width: 213.9px;
+    height: 36px;
+
+}
