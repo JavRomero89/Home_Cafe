@@ -25,7 +25,7 @@
     height: 64px;
     background: #2B2A2B;
     box-shadow: 0px 4px 4px black;
-
+    color: white;
 }
 
 #divLogo {
@@ -37,4 +37,119 @@
     width: 213.9px;
     height: 36px;
 
+}
+
+#divMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 570px;
+    height: 32px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#sec1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 61px;
+    height: 32px;
+}
+
+#sec2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 89px;
+    height: 32px;
+}
+
+#sec3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 120px;
+    height: 32px;
+}
+
+#sec4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 120px;
+    height: 32px;
+}
+
+#sec5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 75px;
+    height: 32px;
+}
+
+#divFono {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 350px;
+    height: 40px;
+}
+
+#sec6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 150px;
+    height: 24px;
+}
+
+#sec7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+#sec8 {
+    width: 120px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#sec9 {}
+
+login {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 8px;
+    width: 130px;
+    height: 40px;
 }
