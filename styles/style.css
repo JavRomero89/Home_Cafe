@@ -17,7 +17,7 @@
 #divHeader {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     padding: 12px 0px 0px 0px;
     width: 100%;
@@ -167,11 +167,11 @@ a {
 #tbody {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     padding: 0px;
     gap: 24px;
-    
+
 }
 
 #content {
@@ -181,11 +181,13 @@ a {
     width: 590px;
     height: 232px;
 }
+
 #tdImg {
-    
+
     width: 590px;
     height: 230px;
 }
+
 #preTitle {
     width: 588px;
     height: 24px;
@@ -258,13 +260,13 @@ h1>p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 48px ;
+    padding: 48px;
     gap: 24px;
     /* width: 100%; */
     height: 380px;
     background: url(/imagenes/background.jpg);
     background-position: center;
-    background-size:100%;
+    background-size: 100%;
 
 }
 
@@ -334,4 +336,91 @@ h1>p {
     text-align: center;
     color: #111827;
 
+}
+
+#cardShop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    width: 100%;
+    height: 610px;
+}
+
+#shopTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #2A5B45;
+
+}
+
+#divShop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 100%;
+    height: 400px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+
+    width: 282px;
+    height: 391.39px;
+
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+}
+
+.cafeImg {
+    width: 220px;
+    height: 220px;
+}
+
+.Precio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    gap: 12px;
+    width: 150px;
+    height: 44px;
+}
+
+.buttonShop {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    width: 60px;
+    height: 32px;
+    color: #FFFFFF;
+    background: rgba(42, 91, 69, 0.7);
+    border-radius: 4px;
+    border: none;
+}
+.fontShop {
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 114%;
+text-align: center;
+
+color: #000000;
+    
 }
