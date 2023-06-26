@@ -19,12 +19,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 12px 0px 0px 0px;
+    /* padding: 12px 0px 0px 0px; */
     width: 100%;
     height: 64px;
     background: #2B2A2B;
-    box-shadow: 0px 4px 4px black;
     color: #ffffff;
+    border: none;
 }
 
 #divLogo {
@@ -41,7 +41,7 @@
 #divMenu {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items:center;
     padding: 0px;
     gap: 16px;
     width: 570px;
@@ -53,54 +53,54 @@ a {
     text-decoration: none;
 }
 
-#sec1 {
+#menu1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 8px;
     gap: 8px;
     width: 61px;
-    height: 32px;
+    /* height: 32px; */
 }
 
-#sec2 {
+#menu2 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 8px;
     gap: 8px;
     width: 89px;
-    height: 32px;
+    /* height: 32px; */
 }
 
-#sec3 {
+#menu3 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 8px;
     gap: 8px;
     width: 120px;
-    height: 32px;
+    /* height: 32px; */
 }
 
-#sec4 {
+#menu4 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 8px;
     gap: 8px;
     width: 120px;
-    height: 32px;
+    /* height: 32px; */
 }
 
-#sec5 {
+#menu5 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 8px;
     gap: 8px;
     width: 75px;
-    height: 32px;
+    /* height: 32px; */
 }
 
 #divFono {
@@ -113,7 +113,7 @@ a {
     height: 40px; */
 }
 
-#sec6 {
+#contacto {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -123,7 +123,7 @@ a {
     height: 24px; */
 }
 
-#sec7 {
+#iconTel {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -133,7 +133,7 @@ a {
     height: 24px;
 }
 
-#sec8>p {
+#numero>p {
     width: 120px;
     height: 16px;
     font-weight: 600;
@@ -238,6 +238,7 @@ h1>p {
     background: #1F1815;
     border-radius: 4px;
     color: #ffffff;
+    border: none;
 }
 
 #button2 {
@@ -248,6 +249,7 @@ h1>p {
     background: #2A5B45;
     border-radius: 4px;
     color: #ffffff;
+    border: none;
 }
 
 #divMain {
@@ -353,6 +355,7 @@ h1>p {
     font-weight: 500;
     font-size: 24px;
     line-height: 120%;
+    padding-bottom: 15px;
     color: #2A5B45;
 
 }
@@ -377,8 +380,8 @@ h1>p {
     padding: 24px;
     gap: 24px;
 
-    width: 282px;
-    height: 391.39px;
+    /* width: 282px; */
+    height: 391.39px; 
 
     border: 1px solid #E3DED7;
     border-radius: 8px;
@@ -414,13 +417,97 @@ h1>p {
     border-radius: 4px;
     border: none;
 }
+
 .fontShop {
     font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 114%;
-text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    color: #000000;
 
-color: #000000;
-    
+}
+
+.product:hover {
+    background-color: #E3DED7;
+}
+
+.product:hover .buttonShop {
+    background-color: #2A5B45;
+}
+
+#verTodos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 15px;
+    width: 130px;
+    height: 24px;
+}
+
+#verTodos>a {
+    width: 61px;
+    height: 16px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 114%;
+    text-decoration-line: underline;
+    color: #000000;
+}
+#faq {
+    display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 621px;
+background: #2A5B45;
+}
+#faqTitle {
+    display: flex;
+flex-direction: column;
+padding: 48px;
+font-family:'outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 117%;
+color: #FFFFFF;
+}
+#allFaq {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.questionFaq {
+    display: flex;
+flex-direction: column;
+padding: 24px;
+gap: 16px;
+width: 668px;
+/* height: 136px; */
+background: #FFFFFF;
+border-radius: 10px;
+}
+.firstQ {
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+}
+.divLine {
+    border: 1px solid #E3DED7
+}
+.divParrafo {
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 133%;
+color: #2B2A2B;
+}
+#FlechitaUp {
+    rotate: 180deg;
 }
