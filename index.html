@@ -17,7 +17,7 @@
     <header>
         <div id="divHeader">
             <div id="divLogo">
-                <p id="fontLogo">cafedealtura.com</p>
+                <p id="fontLogo"><a href="./index.html">cafedealtura.com</a></p>
                 <img src="/imagenes/Vector.png" alt="Cafe">
             </div>
             <div id="divMenu">
@@ -74,7 +74,7 @@
             </card>
         </div>
     </card>
-    <div id="cardShop">
+    <!---<div id="cardShop">
         <h2 id="shopTitle">Novedades</h2>
         <div id="divShop">
             <div class="product">
@@ -113,9 +113,14 @@
                 </div>
                 <button class="buttonShop"><a href="">Añadir</a></button>
             </div>
+        </div> -->
+    
+        <div id="productContainer">
+            <h2 id="shopTitle">Novedades</h2>
+            <div id="divShop"></div>
         </div>
-        <div>
-            <p id="verTodos"><a href="">Ver todos</a> <img src="/imagenes/Flechita.png" alt="Flechita"></p>
+        <div id="seeAll">
+            <p id="verTodos"><a href="./tienda/tienda.html">Ver todos</a> <img src="/imagenes/Flechita.png" alt="Flechita"></p>
         </div>
     </div>
     <div id="faq">
@@ -128,7 +133,7 @@
                     <div>
                         <h3>¿Cómo hago el pedido?</h3>
                     </div>
-                    <div><img src="/imagenes/FlechitaUp.png" alt="Flechita"></div>
+                    <button class="flechaUp"><img src="/imagenes/FlechitaUp.png" alt="Flechita"></button>
                 </div>
                 <div class="divLine"></div>
                 <div class="divParrafo">
@@ -142,7 +147,7 @@
                     <div>
                         <h3>¿Por qué los precios son tan bajos?</h3>
                     </div>
-                    <div><img src="/imagenes/FlechitaUp.png" alt="Flechita"></div>
+                    <button class="flechaUp"><img src="/imagenes/FlechitaUp.png" alt="Flechita"></button>
                 </div>
                 <div class="divLine"></div>
                 <div class="divParrafo">
@@ -158,15 +163,24 @@
                     <div>
                         <h3>¿Es posible enviar café a mi oficina? </h3>
                     </div>
-                    <div><img id="FlechitaUp" src="/imagenes/FlechitaUp.png" alt="Flechita"></div>
+                    <button class="flechaUp"><img src="/imagenes/FlechitaUp.png" alt="Flechita"></button>
                 </div>
+                    <div class="divLine"></div>
+                    <div class="divParrafo">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora,
+                            earum modi? Omnis necessitatibus est eaque qui delectus cum id
+                            debitis, nihil adipisci, tempore ipsa rerum commodi. Harum corrupti
+                            asperiores vel?
+                        </p>
+                    </div>
+                
             </div>
         </div>
         <div></div>
     </div>
     <article id="questions">
         <a href="">Resolvemos tus dudas</a>
-        <img src="/images/Flecha blanca.png" alt="Flecha">
+        <img src="/imagenes/Flecha blanca.png" alt="Flecha">
     </article>
 </section>
 <!-- #endregion -->
@@ -179,11 +193,11 @@
                 pedido y llévate un descuento</p>
             <div>
                 <a href="">Como llegar</a>
-                <img src="/images/flechita.png" alt="Flecha" id="arrowNov">
+                <img src="/imagenes/flechita.png" alt="Flecha" id="arrowNov">
             </div>
         </article>
         <article id="imgCoffeeShop">
-            <img src="/images/Cafeteria.png" alt="Cafeteria" >
+            <img src="/imagenes/Cafeteria.png" alt="Cafeteria" >
         </article>
     </div>
 </section>
@@ -206,11 +220,11 @@
                 </div>
                 <div id="emailPhone">
                     <div id="phone">
-                        <img src="/images/phone.png" alt="icono telefono">
+                        <img src="/imagenes/Phone_Contacto.png" alt="icono telefono">
                         <p class="pparagraph">+1 (555) 123-4567</p>
                     </div>
                     <div id="email">
-                        <img src="/images/Mail.png" alt="Mail">
+                        <img src="/imagenes/Mail.svg" alt="Mail">
                         <p class="paragraph">support@example.com</p>
                     </div>
                 </div>
@@ -259,15 +273,15 @@
 <!-- #region footer -->
 <footer>
     <section id="terminos">
-        <article class="logo">
+        <article id="logo">
             <p id="logoFooter">cafedealtura.com</p>
-            <img src="/images/Vector.png" alt="taza de cafe" text>
+            <img src="/imagenes/Vector.png" alt="taza de cafe" >
         </article>
         <article id="storeSection">
             <div id="helpSection">
                 <h3>Te ayudamos en</h3>
-                <button id="telfButton"><img src="/images/Phone boton footer.png" alt=""><a href="">+34 919 49 05 18</a></button>
-                <button id="emailButton"><img src="/images/mail boton footer.png" alt=""><a href="">hola@cafedealtura.com</a></button>
+                <button id="telfButton"><img src="./imagenes/Phone.png" alt=""><a href="">+34 919 49 05 18</a></button>
+                <button id="emailButton"><img src="/imagenes/Mail.png" alt=""><a href="">hola@cafedealtura.com</a></button>
             </div>
             <div id="subscription">
                 <a href="">Tienda</a>

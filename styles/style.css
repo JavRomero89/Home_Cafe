@@ -341,7 +341,7 @@ h1>p {
 
 }
 
-#cardShop {
+#productContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -436,15 +436,27 @@ h1>p {
 .product:hover .buttonShop {
     background-color: #2A5B45;
 }
-
+#seeAll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5px;
+    gap: 15px;
+    width: 130px;
+    height: 24px; */
+    
+}
 #verTodos {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 5px;
     gap: 15px;
     width: 130px;
     height: 24px;
+   
 }
 
 #verTodos>a {
@@ -498,9 +510,11 @@ flex-direction: row;
 justify-content:space-between;
 align-items: center;
 }
+
 .divLine {
     border: 1px solid #E3DED7
 }
+
 .divParrafo {
     font-family: 'Outfit';
 font-style: normal;
@@ -509,9 +523,15 @@ font-size: 12px;
 line-height: 133%;
 color: #2B2A2B;
 }
-#FlechitaUp {
-    rotate: 180deg;
+
+.divParrafo { 
+    display: none; 
 }
+
+.rotate {
+    transform: rotate(180deg);
+}
+
 
 /* NUEVO CCS */
 
@@ -944,7 +964,16 @@ footer {
     padding: 28px 40px 37px 40px;
     gap: 16px;
 }
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7.30px;
+    width: 213.9px;
+    height: 36px;
 
+}
 #logoFooter {
     font-family: 'Outfit';
     font-style: normal;

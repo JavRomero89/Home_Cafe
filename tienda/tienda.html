@@ -17,7 +17,7 @@
     <header>
         <div id="divHeader">
             <div id="divLogo">
-                <p id="fontLogo">cafedealtura.com</p>
+                <p id="fontLogo"><a href="/index.html">cafedealtura.com</a></p>
                 <img src="/imagenes/Vector.png" alt="Cafe">
             </div>
             <div id="divMenu">
@@ -36,71 +36,44 @@
                 </section>
                 <button id="login">Iniciar sesion</button>
             </div>
-            <div class="containerCart">
-            <button id="buyCar"><img src="/imagenes/Carrito.png" alt="carrito"></button>
-            <div class="countProducts">
-                <span id="count">0</span>
-              </div>
-              <div class="containerProducts cartHidden">
-                  <div class="cartProduct">
-                  <div class="infoProduct">
-                </div>
-              </div>
-              
-              <div class="totalPrecio">
-                <h3>Total</h3>
-                <span id="totalPagar"></span>
-              </div>
-            </div>
+            <div><img src="/imagenes/Carrito.png" alt="carrito"></div>
         </div>
-    </header>
-    //Novedades
+            
+        <div id="productContainer">
+            <h2 id="shopTitle">Todos los productos</h2>
+            <div id="divShop" class="product-grid"></div>
+        </div>
 
-    <section id="sectionNov">
-      <article>
-        <h2 id="nov">Tienda</h2>
-      </article>
-      <article class="products">
-        <!-- <div>
-                <img src="/images/cafe costa rica.png" alt="Coffee Costa Rica">
-                <a href="">
-                    <h3>Costa Rica Tarrazú</h3>
-                </a>
-                <p>9,00 €</p>
-                <button class="buttonProducts">Añadir</button>
-            </div> -->
-        <!-- <div>
-                <img src="/images/cafe colombia.png" alt="Coffee Colombia">
-                <a href="">
-                    <h3>Colombia Los Naranjos</h3>
-                </a>
-                <p>9,00 €</p>
-                <button class="buttonProducts">Añadir</button>
-            </div> -->
-        <!-- <div>
-                <img src="/images/cafe laos.png" alt="Coffee Laos">
-                <a href="">
-                    <h3>Laos Amanecer</h3>
-                </a>
-                <p>9,00 €</p>
-                <button class="buttonProducts">Añadir</button>
+<footer>
+    <section id="terminos">
+        <article id="logo">
+            <p id="logoFooter">cafedealtura.com</p>
+            <img src="/imagenes/Vector.png" alt="taza de cafe">
+        </article>
+        <article id="storeSection">
+            <div id="helpSection">
+                <h3>Te ayudamos en</h3>
+                <button id="telfButton"><img src="/imagenes/Phone.png" alt=""><a href="">+34 919 49 05 18</a></button>
+                <button id="emailButton"><img src="/imagenes/Mail.png" alt=""><a href="">hola@cafedealtura.com</a></button>
             </div>
-            <div>
-                <img src="/images/cafe etiopia.png" alt="Coffee Etiopia">
-                <a href="">
-                    <h3>Etiopia Yrgacheff</h3>
-                </a>
-                <p>9,00 €</p>
-                <button class="buttonProducts">Añadir</button>
-            </div> -->
-      </article>
-      <article class="seeAll">
-        <a href="../index.html" >Inicio</a>
-        <img src="/images/flechita.png" alt="Flecha" />
-      </article>
+            <div id="subscription">
+                <a href="">Tienda</a>
+                <a href="">Suscripción</a>
+                <a href="">Para empresas</a>
+                <a href="">Sobre nosotros</a>
+                <a href="">Contacto</a>
+            </div>
+            <div id="cookies">
+                <a href="">Política de privacidad</a>
+                <a href="">Política de cookies</a>
+                <a href="">Términos y condiciones</a>
+            </div>
+        </article>
     </section>
-
-
+    <section id="rightsReserved">
+        <a href="">Todos los derechos reservados - Café de Altura SL - 2022</a>
+    </section>
+</footer>
 
 <script src="./tienda.js"></script>
 </body>
